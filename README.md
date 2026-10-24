@@ -14,3 +14,10 @@ yenidən yükləmək lazım deyil.
 ---
 
 Rəsmi sayt: [8bit.az](https://8bit.az)
+
+## Proqramı uzaqdan bağlamaq (yalnız sahib üçün)
+
+`status.json` faylında `"enabled": false` yazılsa, bütün istifadəçilərdə proqram
+bağlı ekrana keçir (açılanda və açıq ikən 10 dəqiqədən bir yoxlanılır).
+`"title"` və `"message"` sahələrində istifadəçilərə göstəriləcək mətni yaza bilərsiniz.
+Yenidən açmaq üçün `"enabled": true` edin.
